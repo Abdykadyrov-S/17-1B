@@ -64,4 +64,6 @@ git checkout -b syimyk
 
 git checkout main
 
+git pull
+
 """
