@@ -1,5 +1,7 @@
 """
 
+Команды пишутся только один раз когда вы делаете первый пуш
+
 git --version
 
 git config --global user.name "YOUR USERNAME ON GITHUB"
@@ -10,7 +12,6 @@ git config --global user.email "YOUR EMAIL ON GITHUB"
 
 
 """
-
 Команды для пуша на новый репозиторий 
 
 git init
@@ -30,12 +31,24 @@ git remote add origin <HTTPS link.git>
 git push -u origin main
 
 
-git status
-
 """
 
+
 """
+Команды для пуша на существующий репозиторий 
 
 git add .
+
+git commit -m "create test.py"
+
+git push
+
+"""
+
+
+"""
+Команды-помошники
+
+git status
 
 """
