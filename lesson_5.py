@@ -51,4 +51,17 @@ git push
 
 git status
 
+git branch
+
+"""
+
+"""
+Команды для работы с ветками
+
+git branch
+
+git checkout -b syimyk
+
+git checkout main
+
 """
