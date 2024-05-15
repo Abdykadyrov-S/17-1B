@@ -51,31 +51,31 @@ chat = "Hi"
 print(chat + " " + name) 
 
 
-# class Animals:
-#     def __init__(self, name, eyes):
-#         self.name = name
-#         self.eyes = eyes
+class Animals:
+    def __init__(self, name, eyes):
+        self.name = name
+        self.eyes = eyes
 
-#     def make_sound(self):
-#         pass
+    def make_sound(self):
+        pass
 
-# class Dogs(Animals):
-#     def make_sound(self):
-#         print("Gaf-Gaf")
+class Dogs(Animals):
+    def make_sound(self):
+        print("Gaf-Gaf")
 
-# class Cats(Animals):
-#     def make_sound(self):
-#         print("Meow")
+class Cats(Animals):
+    def make_sound(self):
+        print("Meow")
 
-# class Fish(Animals):
-#     def make_sound(self):
-#         print("bul-bul")
+class Fish(Animals):
+    def make_sound(self):
+        print("bul-bul")
 
 
-# dog = Dogs("Sharik", "Карие")
-# cat = Cats("Murka", "зеленые")
-# fish = Fish("Nemo", "Оранжевый")
+dog = Dogs("Sharik", "Карие")
+cat = Cats("Murka", "зеленые")
+fish = Fish("Nemo", "Оранжевый")
 
-# dog.make_sound()
-# cat.make_sound()
-# fish.make_sound()
+dog.make_sound()
+cat.make_sound()
+fish.make_sound()
